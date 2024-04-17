@@ -1,0 +1,28 @@
+package chap01;
+
+import java.util.Scanner;
+
+public class test {
+
+	public static void main(String[] args) {
+
+		Scanner stdIn = new Scanner(System.in);
+
+		System.out.println("a 와 b의 값을 입력하세요.");
+        
+		int a;
+		int b;
+        
+        do {
+        	System.out.print("a값: ");
+        	a = stdIn.nextInt();
+        	System.out.print("b값: ");
+        	b = stdIn.nextInt();
+        } while(a >= b);
+        
+        System.out.println("a - b 의 값은 : " + (a - b));
+		
+		
+	}
+
+}

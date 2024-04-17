@@ -7,10 +7,13 @@ public class test {
 	public static void main(String[] args) {
 
 		Scanner stdIn = new Scanner(System.in);
-
-        System.out.println("1부터 n까지의 합을 구합니다.");
-         System.out.print("n값: ");
-        int n = stdIn.nextInt();
+		System.out.println("정사각형을 출력합니다.");
+		System.out.printf("변의 길이: ");
+		int a = stdIn.nextInt();
+		
+		for(int i = 1; i <= a; i++) {
+				System.out.println("*".repeat(a));
+		}
 		
 		
 		
