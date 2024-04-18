@@ -1,0 +1,30 @@
+package chap01;
+
+import java.util.Scanner;
+
+public class test {
+
+	public void triangleLB(int a){
+		
+		Scanner stdIn = new Scanner(System.in);
+		System.out.println("왼쪽 아래가 직각인 이등변삼각형을 출력.");
+		
+		
+		do {
+		System.out.printf("삼각형 변의 길이: ");
+		a = stdIn.nextInt();
+		} while(a <= 0);
+		
+		
+		for(int i = 1; i <= a; i++) {
+				System.out.println("*".repeat(i));
+			}
+		}
+	
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}
