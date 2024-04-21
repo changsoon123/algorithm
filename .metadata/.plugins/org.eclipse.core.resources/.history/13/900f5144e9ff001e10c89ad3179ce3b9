@@ -42,7 +42,7 @@ public class Test {
 
         reverse(x);        // 배열 a의 요소를 역순으로 정렬
 
-        System.out.println("요소를 역순으로 정렬을 마쳤습니다.");
+        System.out.println("요소를 역순으로 정렬했습니다.");
 //        System.out.println("x = " + Arrays.toString(x));
 		
 	}
