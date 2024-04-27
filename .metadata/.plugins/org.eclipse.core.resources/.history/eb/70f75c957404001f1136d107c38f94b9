@@ -31,10 +31,10 @@ class SeqSearchSen {
             x[i] = stdIn.nextInt();
         }
 
-        System.out.print("검색 값 : ");                    
+        System.out.print("검색 값 : ");                    // 키값을 읽력받음
         int ky = stdIn.nextInt();
 
-        int idx = seqSearchSen(x, num, ky);              
+        int idx = seqSearchSen(x, num, ky);              // 배열 x에서 값이 ky인 요소를 검색
 
         if (idx == -1)
             System.out.println("검색 값의 요소가 없습니다.");
