@@ -11,7 +11,7 @@ class SeqSearchSen {
 
         a[n] = key;             // 보초를 추가
 
-        for (;true;) {
+        while (true) {
             if (a[i] == key)    // 검색 성공
                 break;
             i++;
